@@ -8,7 +8,7 @@ Bookmarklets are kind of like an ancient version of browser extensions. Bookmark
 
 
 ## Omnibox - Address Bar on Steroids
-You see, browsers have this address bar on top in which the website's url address is displayed. But this address bar can do much more than that. It can support many types of (\["UriSchemes"](https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml).
+You see, browsers have this address bar on top in which the website's url address is displayed. But this address bar can do much more than that. It can support many types of ["UriSchemes"](https://www.iana.org/assignments/uri-schemes/uri-schemes.xhtml).
 
 For eg:
 ```
