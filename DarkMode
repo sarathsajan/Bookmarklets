@@ -1,1 +1,1 @@
-javascript:(function(){document.body.style.background='black'; document.body.style.color='white'; alert("Dark Mode Enabled")})();
+javascript:(function(){document.body.style.background='black'; document.body.style.color='magenta'; alert("Dark Mode Enabled")})();
