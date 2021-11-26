@@ -15,7 +15,7 @@ For eg: `file:///`, `https://`, `ftp://`, `bitcoin:`, `mailto:` etc etc etc.
 
 You can even directly use it as a search box. Because of this omnipotenence, Chrome browser calls this an *Omnibox*. Finding name of omnibox in different browser's has been left as an exercise for the reader. Anyways, it so happens that we can execute javascript code inside this omnibar using the UriScheme `javascript:`
 
-
+### Building a Bookmarklet
 Now all we have to do is write an anonymous funtion in javascript using the following syntax :
 
 
@@ -26,3 +26,21 @@ Make sure the code is in a single line because if you think about it, the addres
 
 
 `javascript:(function(){document.body.style.background='black'; document.body.style.color='magenta'; alert("Dark Mode Enabled")})();`
+
+
+Now to make this script work as a 'bookmarklet',
+
+
+STEP 1: First enable the bookmarks tab in your browser so that the bookmarks tab is always present in all tabs.
+
+
+STEP 2: `Right-click` on bookmarks tab and select `Add page...`
+
+
+STEP 3: In the `Name` field give a name for your bookmarklet. In the URL field(in some browsers it might be written Path) enter or paste your one-line javascript code. *Make sure that the syntax is correct*. As an example try this code `javascript:(function(){document.body.style.background='black'; document.body.style.color='magenta'; alert("Dark Mode Enabled")})();`. This code will be like a basic Dark Mode.
+
+
+STEP 4: Click the `Save` button.
+
+
+STEP 5: Now go to *google.com* and once the webpage is fully loaded click on the bookmarklet that we just created. Voila...there you have it, world's shittiest dark mode.
