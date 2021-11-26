@@ -54,3 +54,7 @@ Now to make this script work as a 'bookmarklet',
 
 
 5. Now go to *google.com* and once the webpage is fully loaded click on the bookmarklet that we just created. Voila...there you have it, world's shittiest dark mode.
+
+
+##### Another weird bookmarklet
+`javascript:(function(){document.body.style.color='white'; alert("Invisible Mode Enabled")})();`
