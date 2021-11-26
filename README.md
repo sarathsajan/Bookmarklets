@@ -1,6 +1,6 @@
 # Bookmarklets
 
-## What are they
+## What are they ?
 You all heard of Bookmarks but have you heard of Bookmarklets. No? Well me too. After all these years of using various browsers and extension, finally in 2021 I get to know about bookmarklets. I was trying my hands on making a Chrome extension and that's how I landed on Bookmarklets.
 
 
